@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.backgroundnen {
+    background-image: -webkit-linear-gradient(top, #f8d13b, #f36c80);
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+}
+
+.background {height: 990px;}
+
+.body .text {
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    top: 500px;
+}
+
+.background .backgroundanh {
+    background: url(https://www.scdn.co/i/home/hero-burst.svg) no-repeat;
+    width: 1610px;
+    height: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    left: 12%;
+}
+
+.body .text .layer {
+    text-align: center;
+}
+
+.body .text .layer p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 3;
+}
+
+.body .text .layer p a {background: #35bf35;color: white;padding: 20px;border-radius: 35px;}
+
+.body .text .layer p a:hover {
+    background: #48f648;
+    transition: 0.5s;
+}
+
+.body .text .layer h1 {
+    font-family: tahoma;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.header .left {
+    position: relative;
+}
+
+.header .left:hover .ngang {
+    left: 0;
+    transition: 1s;
+    opacity: 1;
+}
+
+.ngang {
+    width: 50px;
+    border-bottom: 2px solid white;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    opacity: 0;
+}
+
+.nav .header .left h1 {
+    color: white;
+}
+
+.nav {
+    background: black;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer .footers p a {
+    color: #cacaca;
+}
+
+.footer .footers p a:hover {
+    color: #48f648;
+    transition: 0.5s;
+}
+
+.header .right ul li {
+    display: inline;
+    margin: 10px 20px;
+    color: white;
+}
+
+.header .right ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.header .right ul li:hover a {
+    color: #48f648;
+}
+.footer  p {
+    color: #cacaca;
+}
+
+.footer-copyright {
+    background: #212121!important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2E2E2E!important;
+    color: white;
+    clear: both;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.footer .footers h5 {
+    font-size: 60px;
+}
+.footer .footers1 h5 {
+    font-size: 30px;
+}
+
+.footer h5 {
+    line-height: 95px;
+}
+
+.footer p {
+    line-height: 30px;
+}
+.footer .footers1 p a {
+    color: #cacaca;
+}
+
+.footer .footers1 p a:hover {color: #48f648;transition: 0.5s;}
